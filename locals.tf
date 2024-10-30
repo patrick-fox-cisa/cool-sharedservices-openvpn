@@ -45,6 +45,16 @@ locals {
       protocol  = "udp"
       to_port   = 51835
     },
+    ao_vpn_endpoints_2_tcp = {
+      from_port = 60000
+      protocol  = "tcp"
+      to_port   = 60100
+    },
+    ao_vpn_endpoints_2_udp = {
+      from_port = 60000
+      protocol  = "udp"
+      to_port   = 60100
+    },
     http = {
       from_port = 80
       protocol  = "tcp"
